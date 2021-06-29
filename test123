@@ -19,6 +19,13 @@ paths:
           schema:
             type: integer
             format: int32
+      - name: id2
+          in: query
+          description: ID2 of the user
+          required: true
+          schema:
+            type: integer
+            format: int32
       responses:
         '200':
           description: 'Sample response: Details about a user by ID'
